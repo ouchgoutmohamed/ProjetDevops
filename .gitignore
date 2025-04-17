@@ -1,0 +1,34 @@
+# System files
+.htaccess
+index.php
+user_guide/
+
+# Environment files (may contain sensitive data)
+.env
+application/config/config.php
+application/config/database.php
+application/config/email.php
+
+# Cache and logs
+application/cache/*
+application/logs/*
+!application/cache/index.html
+!application/logs/index.html
+
+# Composer dependencies (if used)
+vendor/
+composer.lock
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Node.js / Frontend dependencies (if applicable)
+node_modules/
+package-lock.json
