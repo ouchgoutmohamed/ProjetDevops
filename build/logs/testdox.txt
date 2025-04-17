@@ -1,0 +1,4 @@
+User Model (App\Tests\Models\UserModel)
+ [ ] Find all users
+ [ ] Insert user
+

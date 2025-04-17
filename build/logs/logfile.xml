@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="App\Tests\Models\UserModelTest" file="C:\Users\hp\Desktop\ProjetDevops\tests\UserModelTest.php" tests="2" assertions="0" errors="2" failures="0" skipped="0" time="0.024809">
+    <testcase name="testFindAllUsers" file="C:\Users\hp\Desktop\ProjetDevops\tests\UserModelTest.php" line="9" class="App\Tests\Models\UserModelTest" classname="App.Tests.Models.UserModelTest" assertions="0" time="0.024358">
+      <error type="Error">App\Tests\Models\UserModelTest::testFindAllUsers&#13;
+Error: Class "App\Models\UserModel" not found
+&#13;
+C:\Users\hp\Desktop\ProjetDevops\tests\UserModelTest.php:10
+C:\Users\hp\Desktop\ProjetDevops\vendor\phpunit\phpunit\phpunit:104</error>
+    </testcase>
+    <testcase name="testInsertUser" file="C:\Users\hp\Desktop\ProjetDevops\tests\UserModelTest.php" line="15" class="App\Tests\Models\UserModelTest" classname="App.Tests.Models.UserModelTest" assertions="0" time="0.000451">
+      <error type="Error">App\Tests\Models\UserModelTest::testInsertUser&#13;
+Error: Class "App\Models\UserModel" not found
+&#13;
+C:\Users\hp\Desktop\ProjetDevops\tests\UserModelTest.php:16
+C:\Users\hp\Desktop\ProjetDevops\vendor\phpunit\phpunit\phpunit:104</error>
+    </testcase>
+  </testsuite>
+</testsuites>
